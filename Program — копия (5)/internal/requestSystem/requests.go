@@ -1,13 +1,14 @@
 package requestsystem
 
 import (
+	"fmt"
 	"math/rand"
 	"sync"
 	"time"
 )
 
 // StartRequestGeneration запускает горутину для генерации заявок с ограничением по времени
-func StartRequestGeneration(clients []*Client, stagingManager *StagingManager, retrievalManager *RetrievalManager, wg *sync.WaitGroup, lamb float64, statsManager *StatsManager, duration time.Duration) {
+func StartRequestGeneration(clients []*Client, stagingManager *StagingManager, retrievalManager *RetrievalManager, wg *sync.WaitGroup, lamb float64, statsManager *StatsManager, duration time.Duration, pauseTime time.Duration) {
 	go func() {
 		defer wg.Done()
 		timer := time.NewTimer(duration)
@@ -24,21 +25,17 @@ func StartRequestGeneration(clients []*Client, stagingManager *StagingManager, r
 
 				// Создаем заявку
 				request := client.SubmitRequest("TypeA")
-
 				// Записываем статистику о новой заявке
 				statsManager.RecordRequest()
 
 				// Добавляем заявку в буфер
 				if retrievalManager.CheckSpecialistAvailability() {
 					availableSpecialist := retrievalManager.SelectAvailableSpecialist()
-					if availableSpecialist == nil {
-						// Если нет доступных специалистов, ждем
-						time.Sleep(100 * time.Millisecond)
-						continue
+					if availableSpecialist != nil {
+						retrievalManager.SendRequestForProcessing(request, availableSpecialist, false)
+					} else {
+						fmt.Println("pizdec")
 					}
-
-					// Отправляем заявку на обработку
-					retrievalManager.SendRequestForProcessing(request, availableSpecialist)
 				} else {
 					if !stagingManager.Buffer.AddRequest(request) {
 						// Если буфер полон, записываем отклоненную заявку
@@ -51,14 +48,14 @@ func StartRequestGeneration(clients []*Client, stagingManager *StagingManager, r
 				retrievalManager.PrintSpecialists()
 
 				// Ожидаем случайное время (интенсивность от 0 до 1)
-				time.Sleep(time.Duration(lamb * float64(time.Second)))
+				time.Sleep(time.Duration(lamb * float64(time.Millisecond)))
 			}
 		}
 	}()
 }
 
 // StartRequestProcessing запускает горутину для обработки заявок с ограничением по времени
-func StartRequestProcessing(retrievalManager *RetrievalManager, wg *sync.WaitGroup, statsManager *StatsManager, duration time.Duration) {
+func StartRequestProcessing(retrievalManager *RetrievalManager, wg *sync.WaitGroup, statsManager *StatsManager, duration time.Duration, pauseTime time.Duration) {
 	go func() {
 		defer wg.Done()
 		timer := time.NewTimer(duration)
@@ -74,7 +71,7 @@ func StartRequestProcessing(retrievalManager *RetrievalManager, wg *sync.WaitGro
 				nextRequest := retrievalManager.SelectRequestClick()
 				if nextRequest == nil {
 					// Если буфер пуст, ждем
-					time.Sleep(100 * time.Millisecond)
+					time.Sleep(pauseTime)
 					continue
 				}
 
@@ -82,7 +79,7 @@ func StartRequestProcessing(retrievalManager *RetrievalManager, wg *sync.WaitGro
 				availableSpecialist := retrievalManager.SelectAvailableSpecialist()
 				if availableSpecialist == nil {
 					// Если нет доступных специалистов, ждем
-					time.Sleep(100 * time.Millisecond)
+					time.Sleep(pauseTime)
 					continue
 				}
 
@@ -90,14 +87,15 @@ func StartRequestProcessing(retrievalManager *RetrievalManager, wg *sync.WaitGro
 				statsManager.RecordBufferTime(time.Since(nextRequest.CreatedAt))
 
 				// Отправляем заявку на обработку
-				retrievalManager.SendRequestForProcessing(nextRequest, availableSpecialist)
+				retrievalManager.SendRequestForProcessing(nextRequest, availableSpecialist, true)
 				statsManager.RecordProcessingTime(availableSpecialist.WorkTime)
 
 				// Записываем использование специалиста
 				statsManager.RecordSpecialistUsage(availableSpecialist.Id)
+				statsManager.RecordSpecialistWorkTime(availableSpecialist.Id, availableSpecialist.WorkTime)
 
 				// Ожидаем некоторое время перед следующей итерацией
-				time.Sleep(100 * time.Millisecond)
+				time.Sleep(pauseTime)
 			}
 		}
 	}()

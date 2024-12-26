@@ -44,17 +44,22 @@ func (rm *RetrievalManager) SelectRequestClick() *Request {
 }
 
 // SendRequestForProcessing sends a request to a specialist for processing and returns the processing time.
-func (rm *RetrievalManager) SendRequestForProcessing(request *Request, specialist *Specialist) {
+func (rm *RetrievalManager) SendRequestForProcessing(request *Request, specialist *Specialist, fromBuff bool) {
 	rm.wg.Add(1) // Increment the WaitGroup counter
 
 	go func() {
-		defer rm.wg.Done() // Decrement the WaitGroup counter when done
+		//rm.wg.Done() // Decrement the WaitGroup counter when done
 
 		// Remove the request from the buffer only after the specialist starts processing it
-		rm.Buffer.RemoveRequest(request)
 
 		specialist.TakeRequest(request)
+
 		specialist.ProcessRequest()
+		if fromBuff {
+			rm.Buffer.RemoveRequest(request)
+		}
+
+		rm.wg.Done()
 
 	}()
 }

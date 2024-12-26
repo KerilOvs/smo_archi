@@ -1,0 +1,799 @@
+Client 8 submitted a request of type TypeA with ID 1
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 1 || Specialist 2: Available || Specialist 3: Available || 
+Specialist 1 Processing request 1
+Request 1 completed by spec 1
+Client 13 submitted a request of type TypeA with ID 2
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Available || Specialist 2: Available || Specialist 3: Available || 
+Specialist 2 Processing request 2
+Request 2 completed by spec 2
+Client 5 submitted a request of type TypeA with ID 3
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Available || Specialist 2: Available || Specialist 3: Busy with Request ID: 3 || 
+Specialist 3 Processing request 3
+Request 3 completed by spec 3
+Client 14 submitted a request of type TypeA with ID 4
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1 Processing request 4
+Specialist 1: Busy with Request ID: 4 || Specialist 2: Available || Specialist 3: Available || 
+Request 4 completed by spec 1
+Client 17 submitted a request of type TypeA with ID 5
+Specialist 2 Processing request 5
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Available || Specialist 2: Busy with Request ID: 5 || Specialist 3: Available || 
+Request 5 completed by spec 2
+Client 19 submitted a request of type TypeA with ID 6
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Available || Specialist 2: Available || Specialist 3: Busy with Request ID: 6 || 
+Specialist 3 Processing request 6
+Request 6 completed by spec 3
+Client 2 submitted a request of type TypeA with ID 7
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Available || Specialist 2: Available || Specialist 3: Available || 
+Specialist 1 Processing request 7
+Client 20 submitted a request of type TypeA with ID 8
+Specialist 2 Processing request 8
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 7 || Specialist 2: Busy with Request ID: 8 || Specialist 3: Available || 
+Client 4 submitted a request of type TypeA with ID 9
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 7 || Specialist 2: Busy with Request ID: 8 || Specialist 3: Busy with Request ID: 9 || 
+Specialist 3 Processing request 9
+Request 7 completed by spec 1
+Request 9 completed by spec 3
+Client 16 submitted a request of type TypeA with ID 10
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 8 || Specialist 3: Available || 
+Specialist 1 Processing request 10
+Request 8 completed by spec 2
+Client 16 submitted a request of type TypeA with ID 11
+Specialist 2 Processing request 11
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Available || 
+Client 20 submitted a request of type TypeA with ID 12
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 3 Processing request 12
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 12 || 
+Client 8 submitted a request of type TypeA with ID 13
+[ Buffer Content: ] {  1 }
+Request ID: 13, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 12 || 
+Request 12 completed by spec 3
+Client 7 submitted a request of type TypeA with ID 14
+Specialist 3 Processing request 14
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 14 || 
+Client 17 submitted a request of type TypeA with ID 15
+[ Buffer Content: ] {  1 }
+Request ID: 15, Client ID: 17  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 14 || 
+Client 12 submitted a request of type TypeA with ID 16
+[ Buffer Content: ] {  1 }
+Request ID: 16, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 14 || 
+Request 14 completed by spec 3
+Client 3 submitted a request of type TypeA with ID 17
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3 Processing request 17
+Specialist 3: Busy with Request ID: 17 || 
+Client 12 submitted a request of type TypeA with ID 18
+[ Buffer Content: ] {  1 }
+Request ID: 18, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 17 || 
+Client 20 submitted a request of type TypeA with ID 19
+[ Buffer Content: ] {  1 }
+Request ID: 19, Client ID: 20  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 17 || 
+Client 13 submitted a request of type TypeA with ID 20
+[ Buffer Content: ] {  1 }
+Request ID: 20, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 17 || 
+Client 2 submitted a request of type TypeA with ID 21
+[ Buffer Content: ] {  1 }
+Request ID: 21, Client ID: 2  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 17 || 
+Client 7 submitted a request of type TypeA with ID 22
+[ Buffer Content: ] {  1 }
+Request ID: 22, Client ID: 7  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 17 || 
+Client 17 submitted a request of type TypeA with ID 23
+[ Buffer Content: ] {  1 }
+Request ID: 23, Client ID: 17  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 17 || 
+Client 6 submitted a request of type TypeA with ID 24
+[ Buffer Content: ] {  9 }
+Request ID: 24, Client ID: 6  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 10 || Specialist 2: Busy with Request ID: 11 || Specialist 3: Busy with Request ID: 17 || 
+Request 17 completed by spec 3
+Request 10 completed by spec 1
+Client 17 submitted a request of type TypeA with ID 25
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Available || Specialist 2: Busy with Request ID: 11 || Specialist 3: Available || 
+Specialist 1 Processing request 25
+Request 11 completed by spec 2
+Client 6 submitted a request of type TypeA with ID 26
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2 Processing request 26
+Specialist 2: Busy with Request ID: 26 || Specialist 3: Available || 
+Client 2 submitted a request of type TypeA with ID 27
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Specialist 3 Processing request 27
+Client 10 submitted a request of type TypeA with ID 28
+[ Buffer Content: ] {  1 }
+Request ID: 28, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 19 submitted a request of type TypeA with ID 29
+[ Buffer Content: ] {  1 }
+Request ID: 29, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 15 submitted a request of type TypeA with ID 30
+[ Buffer Content: ] {  1 }
+Request ID: 30, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 8 submitted a request of type TypeA with ID 31
+[ Buffer Content: ] {  1 }
+Request ID: 31, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 4 submitted a request of type TypeA with ID 32
+[ Buffer Content: ] {  1 }
+Request ID: 32, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 2 submitted a request of type TypeA with ID 33
+[ Buffer Content: ] {  1 }
+Request ID: 33, Client ID: 2  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 1 submitted a request of type TypeA with ID 34
+[ Buffer Content: ] {  1 }
+Request ID: 34, Client ID: 1  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 17 submitted a request of type TypeA with ID 35
+[ Buffer Content: ] {  1 }
+Request ID: 35, Client ID: 17  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 12 submitted a request of type TypeA with ID 36
+[ Buffer Content: ] {  1 }
+Request ID: 36, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 1 submitted a request of type TypeA with ID 37
+[ Buffer Content: ] {  9 }
+Request ID: 37, Client ID: 1  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 7 submitted a request of type TypeA with ID 38
+[ Buffer Content: ] {  1 }
+Request ID: 38, Client ID: 7  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 5 submitted a request of type TypeA with ID 39
+[ Buffer Content: ] {  1 }
+Request ID: 39, Client ID: 5  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 9 submitted a request of type TypeA with ID 40
+[ Buffer Content: ] {  1 }
+Request ID: 40, Client ID: 9  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 11 submitted a request of type TypeA with ID 41
+[ Buffer Content: ] {  1 }
+Request ID: 41, Client ID: 11  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 19 submitted a request of type TypeA with ID 42
+[ Buffer Content: ] {  1 }
+Request ID: 42, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 18 submitted a request of type TypeA with ID 43
+[ Buffer Content: ] {  1 }
+Request ID: 43, Client ID: 18  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 4 submitted a request of type TypeA with ID 44
+[ Buffer Content: ] {  1 }
+Request ID: 44, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 12 submitted a request of type TypeA with ID 45
+[ Buffer Content: ] {  1 }
+Request ID: 45, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 14 submitted a request of type TypeA with ID 46
+[ Buffer Content: ] {  1 }
+Request ID: 46, Client ID: 14  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Client 16 submitted a request of type TypeA with ID 47
+[ Buffer Content: ] {  9 }
+Request ID: 47, Client ID: 16  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 27 || 
+Request 27 completed by spec 3
+Client 17 submitted a request of type TypeA with ID 48
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Specialist 3 Processing request 48
+Client 12 submitted a request of type TypeA with ID 49
+[ Buffer Content: ] {  1 }
+Request ID: 49, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 3 submitted a request of type TypeA with ID 50
+[ Buffer Content: ] {  1 }
+Request ID: 50, Client ID: 3  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 13 submitted a request of type TypeA with ID 51
+[ Buffer Content: ] {  1 }
+Request ID: 51, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 13 submitted a request of type TypeA with ID 52
+[ Buffer Content: ] {  1 }
+Request ID: 52, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 8 submitted a request of type TypeA with ID 53
+[ Buffer Content: ] {  1 }
+Request ID: 53, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 15 submitted a request of type TypeA with ID 54
+[ Buffer Content: ] {  1 }
+Request ID: 54, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 4 submitted a request of type TypeA with ID 55
+[ Buffer Content: ] {  1 }
+Request ID: 55, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 19 submitted a request of type TypeA with ID 56
+[ Buffer Content: ] {  1 }
+Request ID: 56, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 16 submitted a request of type TypeA with ID 57
+[ Buffer Content: ] {  1 }
+Request ID: 57, Client ID: 16  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 4 submitted a request of type TypeA with ID 58
+[ Buffer Content: ] {  9 }
+Request ID: 58, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 14 submitted a request of type TypeA with ID 59
+[ Buffer Content: ] {  1 }
+Request ID: 59, Client ID: 14  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 3 submitted a request of type TypeA with ID 60
+[ Buffer Content: ] {  1 }
+Request ID: 60, Client ID: 3  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 2 submitted a request of type TypeA with ID 61
+[ Buffer Content: ] {  1 }
+Request ID: 61, Client ID: 2  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 15 submitted a request of type TypeA with ID 62
+[ Buffer Content: ] {  1 }
+Request ID: 62, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 10 submitted a request of type TypeA with ID 63
+[ Buffer Content: ] {  1 }
+Request ID: 63, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 5 submitted a request of type TypeA with ID 64
+[ Buffer Content: ] {  1 }
+Request ID: 64, Client ID: 5  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 14 submitted a request of type TypeA with ID 65
+[ Buffer Content: ] {  1 }
+Request ID: 65, Client ID: 14  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 5 submitted a request of type TypeA with ID 66
+[ Buffer Content: ] {  1 }
+Request ID: 66, Client ID: 5  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 3 submitted a request of type TypeA with ID 67
+[ Buffer Content: ] {  1 }
+Request ID: 67, Client ID: 3  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 6 submitted a request of type TypeA with ID 68
+[ Buffer Content: ] {  9 }
+Request ID: 68, Client ID: 6  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 10 submitted a request of type TypeA with ID 69
+[ Buffer Content: ] {  1 }
+Request ID: 69, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 9 submitted a request of type TypeA with ID 70
+[ Buffer Content: ] {  1 }
+Request ID: 70, Client ID: 9  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 12 submitted a request of type TypeA with ID 71
+[ Buffer Content: ] {  1 }
+Request ID: 71, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 20 submitted a request of type TypeA with ID 72
+[ Buffer Content: ] {  1 }
+Request ID: 72, Client ID: 20  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 19 submitted a request of type TypeA with ID 73
+[ Buffer Content: ] {  1 }
+Request ID: 73, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 14 submitted a request of type TypeA with ID 74
+[ Buffer Content: ] {  1 }
+Request ID: 74, Client ID: 14  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 12 submitted a request of type TypeA with ID 75
+[ Buffer Content: ] {  1 }
+Request ID: 75, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 19 submitted a request of type TypeA with ID 76
+[ Buffer Content: ] {  1 }
+Request ID: 76, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 6 submitted a request of type TypeA with ID 77
+[ Buffer Content: ] {  1 }
+Request ID: 77, Client ID: 6  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 9 submitted a request of type TypeA with ID 78
+[ Buffer Content: ] {  9 }
+Request ID: 78, Client ID: 9  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 19 submitted a request of type TypeA with ID 79
+[ Buffer Content: ] {  1 }
+Request ID: 79, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 11 submitted a request of type TypeA with ID 80
+[ Buffer Content: ] {  1 }
+Request ID: 80, Client ID: 11  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 9 submitted a request of type TypeA with ID 81
+[ Buffer Content: ] {  1 }
+Request ID: 81, Client ID: 9  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 12 submitted a request of type TypeA with ID 82
+[ Buffer Content: ] {  1 }
+Request ID: 82, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 10 submitted a request of type TypeA with ID 83
+[ Buffer Content: ] {  1 }
+Request ID: 83, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 4 submitted a request of type TypeA with ID 84
+[ Buffer Content: ] {  1 }
+Request ID: 84, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 7 submitted a request of type TypeA with ID 85
+[ Buffer Content: ] {  1 }
+Request ID: 85, Client ID: 7  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 8 submitted a request of type TypeA with ID 86
+[ Buffer Content: ] {  1 }
+Request ID: 86, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 7 submitted a request of type TypeA with ID 87
+[ Buffer Content: ] {  1 }
+Request ID: 87, Client ID: 7  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 13 submitted a request of type TypeA with ID 88
+[ Buffer Content: ] {  9 }
+Request ID: 88, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 10 submitted a request of type TypeA with ID 89
+[ Buffer Content: ] {  1 }
+Request ID: 89, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 8 submitted a request of type TypeA with ID 90
+[ Buffer Content: ] {  1 }
+Request ID: 90, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 1 submitted a request of type TypeA with ID 91
+[ Buffer Content: ] {  1 }
+Request ID: 91, Client ID: 1  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 10 submitted a request of type TypeA with ID 92
+[ Buffer Content: ] {  1 }
+Request ID: 92, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 11 submitted a request of type TypeA with ID 93
+[ Buffer Content: ] {  1 }
+Request ID: 93, Client ID: 11  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 19 submitted a request of type TypeA with ID 94
+[ Buffer Content: ] {  1 }
+Request ID: 94, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 14 submitted a request of type TypeA with ID 95
+[ Buffer Content: ] {  1 }
+Request ID: 95, Client ID: 14  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 11 submitted a request of type TypeA with ID 96
+[ Buffer Content: ] {  1 }
+Request ID: 96, Client ID: 11  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 9 submitted a request of type TypeA with ID 97
+[ Buffer Content: ] {  1 }
+Request ID: 97, Client ID: 9  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 7 submitted a request of type TypeA with ID 98
+[ Buffer Content: ] {  9 }
+Request ID: 98, Client ID: 7  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 16 submitted a request of type TypeA with ID 99
+[ Buffer Content: ] {  1 }
+Request ID: 99, Client ID: 16  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 19 submitted a request of type TypeA with ID 100
+[ Buffer Content: ] {  1 }
+Request ID: 100, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 12 submitted a request of type TypeA with ID 101
+[ Buffer Content: ] {  1 }
+Request ID: 101, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 15 submitted a request of type TypeA with ID 102
+[ Buffer Content: ] {  1 }
+Request ID: 102, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 2 submitted a request of type TypeA with ID 103
+[ Buffer Content: ] {  1 }
+Request ID: 103, Client ID: 2  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Client 18 submitted a request of type TypeA with ID 104
+[ Buffer Content: ] {  1 }
+Request ID: 104, Client ID: 18  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 48 || 
+Request 48 completed by spec 3
+Client 15 submitted a request of type TypeA with ID 105
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Specialist 3 Processing request 105
+Client 18 submitted a request of type TypeA with ID 106
+[ Buffer Content: ] {  1 }
+Request ID: 106, Client ID: 18  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 11 submitted a request of type TypeA with ID 107
+[ Buffer Content: ] {  1 }
+Request ID: 107, Client ID: 11  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 7 submitted a request of type TypeA with ID 108
+[ Buffer Content: ] {  1 }
+Request ID: 108, Client ID: 7  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 10 submitted a request of type TypeA with ID 109
+[ Buffer Content: ] {  9 }
+Request ID: 109, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 13 submitted a request of type TypeA with ID 110
+[ Buffer Content: ] {  1 }
+Request ID: 110, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 6 submitted a request of type TypeA with ID 111
+[ Buffer Content: ] {  1 }
+Request ID: 111, Client ID: 6  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 6 submitted a request of type TypeA with ID 112
+[ Buffer Content: ] {  1 }
+Request ID: 112, Client ID: 6  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 15 submitted a request of type TypeA with ID 113
+[ Buffer Content: ] {  1 }
+Request ID: 113, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 18 submitted a request of type TypeA with ID 114
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 12 submitted a request of type TypeA with ID 115
+[ Buffer Content: ] {  1 }
+Request ID: 115, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 19 submitted a request of type TypeA with ID 116
+[ Buffer Content: ] {  1 }
+Request ID: 116, Client ID: 19  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 6 submitted a request of type TypeA with ID 117
+[ Buffer Content: ] {  1 }
+Request ID: 117, Client ID: 6  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 17 submitted a request of type TypeA with ID 118
+[ Buffer Content: ] {  1 }
+Request ID: 118, Client ID: 17  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 8 submitted a request of type TypeA with ID 119
+[ Buffer Content: ] {  9 }
+Request ID: 119, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 9 submitted a request of type TypeA with ID 120
+[ Buffer Content: ] {  1 }
+Request ID: 120, Client ID: 9  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 3 submitted a request of type TypeA with ID 121
+[ Buffer Content: ] {  1 }
+Request ID: 121, Client ID: 3  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 8 submitted a request of type TypeA with ID 122
+[ Buffer Content: ] {  1 }
+Request ID: 122, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 10 submitted a request of type TypeA with ID 123
+[ Buffer Content: ] {  1 }
+Request ID: 123, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 4 submitted a request of type TypeA with ID 124
+[ Buffer Content: ] {  1 }
+Request ID: 124, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Client 1 submitted a request of type TypeA with ID 125
+[ Buffer Content: ] {  1 }
+Request ID: 125, Client ID: 1  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 25 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Request 25 completed by spec 1
+Client 11 submitted a request of type TypeA with ID 126
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 26 || Specialist 3: Busy with Request ID: 105 || 
+Specialist 1 Processing request 126
+Request 26 completed by spec 2
+Client 9 submitted a request of type TypeA with ID 127
+[ Buffer Content: ] {  0 }
+Buffer is empty
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Available || Specialist 3: Busy with Request ID: 105 || 
+Specialist 2 Processing request 127
+Client 7 submitted a request of type TypeA with ID 128
+[ Buffer Content: ] {  1 }
+Request ID: 128, Client ID: 7  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 10 submitted a request of type TypeA with ID 129
+[ Buffer Content: ] {  1 }
+Request ID: 129, Client ID: 10  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 13 submitted a request of type TypeA with ID 130
+[ Buffer Content: ] {  1 }
+Request ID: 130, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 15 submitted a request of type TypeA with ID 131
+[ Buffer Content: ] {  9 }
+Request ID: 131, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 13 submitted a request of type TypeA with ID 132
+[ Buffer Content: ] {  1 }
+Request ID: 132, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 2 submitted a request of type TypeA with ID 133
+[ Buffer Content: ] {  1 }
+Request ID: 133, Client ID: 2  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 8 submitted a request of type TypeA with ID 134
+[ Buffer Content: ] {  1 }
+Request ID: 134, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 15 submitted a request of type TypeA with ID 135
+[ Buffer Content: ] {  1 }
+Request ID: 135, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 2 submitted a request of type TypeA with ID 136
+[ Buffer Content: ] {  1 }
+Request ID: 136, Client ID: 2  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 4 submitted a request of type TypeA with ID 137
+[ Buffer Content: ] {  1 }
+Request ID: 137, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 16 submitted a request of type TypeA with ID 138
+[ Buffer Content: ] {  1 }
+Request ID: 138, Client ID: 16  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 9 submitted a request of type TypeA with ID 139
+[ Buffer Content: ] {  1 }
+Request ID: 139, Client ID: 9  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 4 submitted a request of type TypeA with ID 140
+[ Buffer Content: ] {  1 }
+Request ID: 140, Client ID: 4  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 11 submitted a request of type TypeA with ID 141
+[ Buffer Content: ] {  9 }
+Request ID: 141, Client ID: 11  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 12 submitted a request of type TypeA with ID 142
+[ Buffer Content: ] {  1 }
+Request ID: 142, Client ID: 12  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 5 submitted a request of type TypeA with ID 143
+[ Buffer Content: ] {  1 }
+Request ID: 143, Client ID: 5  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 2 submitted a request of type TypeA with ID 144
+[ Buffer Content: ] {  1 }
+Request ID: 144, Client ID: 2  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 15 submitted a request of type TypeA with ID 145
+[ Buffer Content: ] {  1 }
+Request ID: 145, Client ID: 15  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 6 submitted a request of type TypeA with ID 146
+[ Buffer Content: ] {  1 }
+Request ID: 146, Client ID: 6  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 3 submitted a request of type TypeA with ID 147
+[ Buffer Content: ] {  1 }
+Request ID: 147, Client ID: 3  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 8 submitted a request of type TypeA with ID 148
+[ Buffer Content: ] {  1 }
+Request ID: 148, Client ID: 8  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 13 submitted a request of type TypeA with ID 149
+[ Buffer Content: ] {  1 }
+Request ID: 149, Client ID: 13  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Client 14 submitted a request of type TypeA with ID 150
+[ Buffer Content: ] {  1 }
+Request ID: 150, Client ID: 14  || 
+[ Specialists List: ]
+Specialist 1: Busy with Request ID: 126 || Specialist 2: Busy with Request ID: 127 || Specialist 3: Busy with Request ID: 105 || 
+Request 105 completed by spec 3
+Stats for Specialists:
+ID    WorkTime        Lambda          ProcessedRequests    LoadPercentage  LoadPercentageByTime
+1     6m2.520703953s  1.9010          5                    3.33           0.00           %
+2     6m2.520703953s  1.9010          5                    3.33           0.00           %
+3     1m23.770556138s 1.0050          9                    6.00           0.00           %
+
+Stats for System:
+TotalRequests        RejectedRequests     TotalBufferTime      TotalProcessingTime  TotalSystemTime     
+150                  0                    0s                   0s                   57.11s              

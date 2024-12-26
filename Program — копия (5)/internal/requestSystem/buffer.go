@@ -2,6 +2,7 @@ package requestsystem
 
 import (
 	"fmt"
+	"math"
 	"sync"
 )
 
@@ -18,7 +19,7 @@ type Buffer struct {
 // AddRequest adds a request to the circular buffer.
 func (b *Buffer) AddRequest(request *Request) bool {
 	b.mu.Lock()
-	defer b.mu.Unlock()
+	// defer b.mu.Unlock()
 
 	status := true
 
@@ -34,7 +35,7 @@ func (b *Buffer) AddRequest(request *Request) bool {
 	if b.Head == b.Tail {
 		b.Full = true
 	}
-
+	b.mu.Unlock()
 	return status
 }
 
@@ -79,20 +80,16 @@ func (b *Buffer) IsFull() bool {
 }
 
 func (b *Buffer) IsEmpty() bool {
-	b.mu.Lock()
-	defer b.mu.Unlock()
-
 	// Если указатель Head равен указателю Tail и буфер не полон, значит буфер пуст
 	return b.Head == b.Tail && !b.Full
 }
 
 // PrintBufferContent prints the current content of the buffer.
-// PrintBufferContent prints the current content of the buffer.
 func (b *Buffer) PrintBufferContent() {
 	b.mu.Lock()
 	defer b.mu.Unlock()
 
-	fmt.Println("[ Buffer Content: ]")
+	fmt.Println("[ Buffer Content: ]", "{ ", math.Abs(float64(b.Head-b.Tail)), "}")
 	if b.Head == b.Tail && !b.Full {
 		fmt.Println("Buffer is empty")
 		return
